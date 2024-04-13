@@ -57,7 +57,6 @@ body {
     background-color: #2e2f42;
 }
 .main-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -65,6 +64,7 @@ body {
     color: #ffffff;
 }
 .order-button {
+    font-family: inherit;
     background-color: #4d5ae5;
     border: 0;
     font-weight: 500;
@@ -97,7 +97,6 @@ body {
     background: #f4f4fd;
 }
 .our-team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -124,7 +123,6 @@ body {
 }
 /* ============Our Portfolio styles============== */
 .services-desc-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -161,7 +159,6 @@ body {
     color: #f4f4fd;
 }
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
