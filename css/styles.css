@@ -13,7 +13,10 @@ body {
     background: #ffffff;
     color: #434455; 
 }
-/* ======header======= */
+/* ======header styles======= */
+.page-header {
+    background: #ffffff;
+}
 .page-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -48,4 +51,119 @@ body {
 .contact-link:hover,
 .contact-link:focus {
     color: #404bbf;
+}
+/* ======hero styles======== */
+.hero {
+    background-color: #2e2f42;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+.order-button {
+    background-color: #4d5ae5;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.order-button:hover,
+.order-button:focus {
+    background-color: #404bbf;;
+}
+/* =====benefits styles====== */
+.benefits-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.benefits-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+/* ==========our team styles============== */
+.team-description {
+    background: #f4f4fd;
+}
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.team-list-item {
+    background: #ffffff;
+}
+.team-member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.team-member-status {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+/* ============Our Portfolio styles============== */
+.services-desc-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.services-list-item {
+    background: #ffffff;
+}
+.service-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.service-department {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* ===========footer styles=========== */
+.page-footer {
+    background: #2e2f42;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
